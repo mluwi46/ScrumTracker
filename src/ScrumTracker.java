@@ -13,6 +13,7 @@ public class ScrumTracker {
         List<String> todo = new ArrayList<>();
         todo.add("Design login screen");
         todo.add("Set up database schema");
+        todo.add("Write unit tests"); // ✅ New task added
 
         List<String> inProgress = new ArrayList<>();
         inProgress.add("Implement authentication module");
@@ -49,4 +50,3 @@ public class ScrumTracker {
         frame.setVisible(true);
     }
 }
-
