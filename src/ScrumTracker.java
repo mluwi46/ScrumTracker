@@ -14,6 +14,9 @@ public class ScrumTracker {
         todo.add("Design login screen");
         todo.add("Set up database schema");
         todo.add("Write unit tests"); // ✅ New task added
+        todo.add("Review code quality");
+
+
 
         List<String> inProgress = new ArrayList<>();
         inProgress.add("Implement authentication module");
